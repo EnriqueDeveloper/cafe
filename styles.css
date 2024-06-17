@@ -132,7 +132,7 @@ ul {
 }
 .menu{
     display: block;
-    background: url(/menu.png) no-repeat;
+    background: url(./menu.png) no-repeat;
     height: 32px;
     width: 32px;
     transition: 0.5s;
@@ -140,7 +140,7 @@ ul {
 }
 .check:checked ~ .menu{
     transition: 0.5s ;
-    background: url(/closemenu.png) no-repeat;
+    background: url(./closemenu.png) no-repeat;
     
 }
 
